@@ -8,7 +8,7 @@ const HeroSection = () => (
     <div className="relative z-10 container text-center px-4 animate-fade-in">
       <p className="text-gold uppercase tracking-[0.3em] text-sm mb-4">Chihuahua, México</p>
       <h1 className="font-display text-5xl md:text-7xl font-bold text-cream leading-tight mb-4">
-        Verona<br />
+        VERONA<br />
         <span className="text-gold italic">Café & Restaurante</span>
       </h1>
       <p className="text-muted-foreground text-lg md:text-xl max-w-md mx-auto mb-8">
