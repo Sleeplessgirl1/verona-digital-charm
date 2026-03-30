@@ -14,8 +14,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
-      <div className="container flex items-center justify-between h-16 bg-black opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-border">
+      <div className="container flex items-center justify-between h-16">
         <a href="#inicio">
           <img src={logo} alt="Verona Café & Restaurante" className="h-10" />
         </a>
