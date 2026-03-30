@@ -3,6 +3,7 @@ import { Coffee, UtensilsCrossed, CakeSlice, GlassWater, Sandwich } from "lucide
 import foodBreakfast from "@/assets/food-breakfast.jpg";
 import foodCoffee from "@/assets/food-coffee.jpg";
 import foodBurger from "@/assets/food-burger.jpg";
+import foodMenu from "@/assets/food-menu.jpg";
 
 const categories = [
   { id: "desayunos", label: "Desayunos", icon: UtensilsCrossed },
@@ -45,7 +46,7 @@ const menuData: Record<string, { items: MenuItem[]; img?: string }> = {
     ],
   },
   platillos: {
-    img: foodBurger,
+    img: foodMenu,
     items: [
       { name: "Hamburguesa Especial 2KL", desc: "Doble carne, queso cheddar, tocino y aderezo especial", price: "$145", badge: "🔥 Martes y Jueves" },
       { name: "Club Sandwich", desc: "Triple piso de jamón, pollo, tocino, lechuga y tomate", price: "$120" },
