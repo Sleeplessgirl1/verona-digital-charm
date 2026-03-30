@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo-verona.png";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
