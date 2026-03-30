@@ -3,6 +3,7 @@ import { Coffee, UtensilsCrossed, CakeSlice, GlassWater, Sandwich } from "lucide
 import foodBreakfast from "@/assets/food-breakfast.jpg";
 import foodCoffee from "@/assets/food-coffee.jpg";
 import foodBurger from "@/assets/food-burger.jpg";
+import foodMenu from "@/assets/food-menu.jpg";
 
 const categories = [
   { id: "desayunos", label: "Desayunos", icon: UtensilsCrossed },
