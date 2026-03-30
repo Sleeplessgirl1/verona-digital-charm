@@ -3,7 +3,7 @@ import heroBg from "@/assets/hero-cafe.jpg";
 const HeroSection = () => (
   <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
     <img src={heroBg} alt="Interior de Verona Café" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
-    <div className="absolute inset-0 bg-background/75" />
+    <div className="absolute inset-0 bg-black/80" />
 
     <div className="relative z-10 container text-center px-4 animate-fade-in">
       <p className="text-gold uppercase tracking-[0.3em] text-sm mb-4">Chihuahua, México</p>
